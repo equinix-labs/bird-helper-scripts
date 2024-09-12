@@ -23,5 +23,3 @@ This would configure your server to advertise the address `192.0.2.1` to it's ne
 ## Use in Automation
 
 These can be used in tandem with platforms like Terraform to automatically setup systems and advertise a global IP address for use in anycast applications. An example of this type of setup can be seen in the [anycast-demo](https://github.com/equinix-labs/anycast_demo) repository. 
-
-One could also reference these through the `User Data` when creating a new Metal device using `cloud-init`. An example `cloud-config` for each version of bird has been included. To try this out, copy and paste the appropriate `cloud-config` into the `User Data` field in equinix metal when provisioning a new device. Upon provisioning, the system should automatically configure the appropriate BIRD daemon and begin synchronizing with peers within a few minutes.
