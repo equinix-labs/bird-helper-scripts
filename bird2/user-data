@@ -9,4 +9,4 @@ packages:
 run_cmd:
   - wget  "https://raw.githubusercontent.com/equinix-labs/bird-helper-scripts/main/bird2/bird2-setup.sh"
   - chmod a+x ./bird2-setup.sh
-  - ./bird-setup.sh 192.0.2.1 #Replace with your Elastic IP before running
+  - ./bird2-setup.sh 192.0.2.1 #Replace with your Elastic IP before running
