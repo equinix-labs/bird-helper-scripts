@@ -1,0 +1,12 @@
+#cloud-config
+
+package_update: true
+package_upgrade: true
+packages: 
+  - bird
+  - jq
+
+run_cmd:
+  - wget  "https://raw.githubusercontent.com/equinix-labs/bird-helper-scripts/main/bird/bird-setup.sh"
+  - chmod a+x ./bird-setup.sh
+  - ./bird-setup.sh 192.0.2.1 #Replace with your Elastic IP before running
