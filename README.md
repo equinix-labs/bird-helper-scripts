@@ -2,6 +2,9 @@
 
 This little repo contains some helper scripts for configuring the BIRD Internet Routing Daemon on your Equinix Metal devices. Since BIRD and BIRD2 have different config file formats, you'll need to specify which one you need. Written as a companion for the guides [Configuring BGP with BIRD 1.6 on an Equinix Metal Server](https://deploy.equinix.com/developers/guides/configuring-bgp-with-bird/) and [Configuring BGP with BIRD 2 on Equinix Metal](https://deploy.equinix.com/developers/guides/configuring-bgp-with-bird2.0/)
 
+# Note
+With the upcoming EoL of Equinix Metal on June 30, 2026, this repo is being archived on February 28, 2026.
+
 ## Prerequisites
 
 You will need either `bird` or `bird2` installed on your system before running the script with the corresponding name. 
